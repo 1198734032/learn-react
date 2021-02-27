@@ -1,0 +1,20 @@
+.select_container{
+    display: flex;
+}
+.select_item{
+    background-color: transparent;
+    border: 1.5px solid rgb(223, 220, 220);
+    border-radius: 3px;
+    padding:5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    color:#333
+}
+.select_item.active{
+    border: 1.5px solid #1890ff;
+    color: #1890ff;
+}
+.select_item:hover{
+    border: 1.5px solid #1890ff;
+}
